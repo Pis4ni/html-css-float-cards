@@ -6,8 +6,7 @@
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-family: 'Quicksand', sans-serif;}
 
 h1{
     text-align: center;
@@ -65,14 +64,15 @@ a{
     color: #fff;
     margin: 0 5px;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
-.card>span:nth-child(2)>*{
+.card>span:nth-child(2){
     text-transform: uppercase;
     padding: 1px 0 0 0 ;
-    font-weight: 200;
+    font-weight: 600;
+    letter-spacing: .1rem;
     font-size: .4 rem;
 }
 
