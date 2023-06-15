@@ -11,29 +11,78 @@ body{
 
 h1{
     text-align: center;
-    margin: 80px 0;
+    margin: 25px 0 ;
     font-size: 2.5rem;
+    color: #e53170;
 }
 
 p{
     text-align: center;
-    padding: 0 1.5rem;
+    padding: 1.5rem 0;
 }
+
+a{
+    color: #52b6db;
+}
+
 
 /* Utilities */
 
 .container{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 10px;
 }
 
 .float-l{
     float: left;
 }
 
+.w1-3{
+    width: calc(100%/3);    
+}
+
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
+}
+
+/* Specific */
+.card>img{
+    width: 100px;
+    margin: 0 10px 0 0;
+}
+
+.card>span{
+    display: block;
+    font-size: .9rem;
+}
+
+
+.card{
+    background-color:#0f0e17 ;
+    color: #fff;
+    margin: 0 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card>span:nth-child(2)>*{
+    text-transform: uppercase;
+    padding: 1px 0 0 0 ;
+    font-weight: 200;
+    font-size: .4 rem;
+}
+
+.card>span{
+    margin: 10px;
+}
+
+.row{
+    margin: 15px -20px;
+}
+.card:hover{
+    background-color: #595776aa;
 }
